@@ -69,16 +69,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E3903AED1E80EA2000E971FC /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				E3903ADB1E80E46700E971FC /* View.playground */,
+			);
+			name = Playgrounds;
+			path = Playgrounds;
+			sourceTree = "<group>";
+		};
 		E3A6ED8E1E80E0CA00194619 = {
 			isa = PBXGroup;
 			children = (
+				E3A6ED991E80E0CA00194619 /* PlaygroundWithCarthage */,
+				E3903AED1E80EA2000E971FC /* Playgrounds */,
+				E3A6ED981E80E0CA00194619 /* Products */,
 				E3903AE31E80E54700E971FC /* RxBlocking.framework */,
 				E3903AE41E80E54700E971FC /* RxCocoa.framework */,
 				E3903AE51E80E54700E971FC /* RxSwift.framework */,
 				E3903ADC1E80E49A00E971FC /* SnapKit.framework */,
-				E3903ADB1E80E46700E971FC /* View.playground */,
-				E3A6ED991E80E0CA00194619 /* PlaygroundWithCarthage */,
-				E3A6ED981E80E0CA00194619 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,11 +103,11 @@
 			isa = PBXGroup;
 			children = (
 				E3A6ED9A1E80E0CA00194619 /* AppDelegate.swift */,
-				E3A6ED9C1E80E0CA00194619 /* ViewController.swift */,
-				E3A6ED9E1E80E0CA00194619 /* Main.storyboard */,
 				E3A6EDA11E80E0CA00194619 /* Assets.xcassets */,
-				E3A6EDA31E80E0CA00194619 /* LaunchScreen.storyboard */,
 				E3A6EDA61E80E0CA00194619 /* Info.plist */,
+				E3A6EDA31E80E0CA00194619 /* LaunchScreen.storyboard */,
+				E3A6ED9E1E80E0CA00194619 /* Main.storyboard */,
+				E3A6ED9C1E80E0CA00194619 /* ViewController.swift */,
 			);
 			path = PlaygroundWithCarthage;
 			sourceTree = "<group>";
@@ -190,6 +199,7 @@
 				E3A6ED9F1E80E0CA00194619 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		E3A6EDA31E80E0CA00194619 /* LaunchScreen.storyboard */ = {
@@ -198,6 +208,7 @@
 				E3A6EDA41E80E0CA00194619 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
