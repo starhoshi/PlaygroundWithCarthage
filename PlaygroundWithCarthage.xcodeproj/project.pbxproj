@@ -40,6 +40,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E34FC5081EAB148300D9313F /* Rx.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Rx.playground; sourceTree = "<group>"; };
 		E3903ADB1E80E46700E971FC /* View.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = View.playground; sourceTree = "<group>"; };
 		E3903ADC1E80E49A00E971FC /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		E3903AE31E80E54700E971FC /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
@@ -73,8 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				E3903ADB1E80E46700E971FC /* View.playground */,
+				E34FC5081EAB148300D9313F /* Rx.playground */,
 			);
-			name = Playgrounds;
 			path = Playgrounds;
 			sourceTree = "<group>";
 		};
